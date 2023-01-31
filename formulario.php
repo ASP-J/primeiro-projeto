@@ -1,4 +1,4 @@
-// <?php
+ <?php
     if(isset($_POST['submit']))
     {
         include_once('config.php');
@@ -37,7 +37,7 @@
 
 
 <div class="box">
-    <legend><b>Formulário Clientes</b></legend>
+    <legend><b>Formulário Clientes aaa</b></legend>
 
         <form action="formulario.php" method="post">
 
