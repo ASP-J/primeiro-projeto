@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -8,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 </head>
   <body>
-    
+
 
 <div class="box">
     <legend><b>Formulário Clientes aaa</b></legend>
