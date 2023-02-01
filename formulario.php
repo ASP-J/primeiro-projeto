@@ -1,30 +1,4 @@
- <?php
-    if(isset($_POST['submit']))
-    {
-        include_once('config.php');
 
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $telefone = $_POST['telefone'];
-        $assunto = $_POST['assunto'];
-        $mensagem = $_POST['mensagem'];
-
-        // Check connection
-        if (!$conn) {
-            die("Connection failed: " . mysqli_connect_error());
-        }
-        
-        echo "Connected successfully";
-        
-        $sql = "INSERT INTO usuarios (nome, email, telefone, assunto, mensagem) VALUES ('$nome','$email','$telefone','$assunto','$mensagem')";
-        if (mysqli_query($conn, $sql)) {
-            echo "New record created successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }
-        mysqli_close($conn);
-    }
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -34,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 </head>
   <body>
-
+    
 
 <div class="box">
     <legend><b>Formulário Clientes aaa</b></legend>
